@@ -1,0 +1,19 @@
+[package]
+name = "pinocchio_counter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pinocchio = "0.9.1"
+pinocchio-system = "0.3.0"
+solana-pubkey = "3.0.0"
+
+
+[lib]
+crate-type = ["lib", "cdylib"]
+
+[dev-dependencies]
+mollusk-svm = "0.5.1"
+solana-sdk = "2.3.0"
+solana-pubkey = "2.4.0"
+mollusk-svm-bencher = "0.5.1"
